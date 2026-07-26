@@ -1,0 +1,14 @@
+{
+  "tenants": [
+    {
+      "id": "tenant_a",
+      "name": "Tenant A",
+      "schema": "schema_tenant_a"
+    },
+    {
+      "id": "tenant_b",
+      "name": "Tenant B",
+      "schema": "schema_tenant_b"
+    }
+  ]
+}

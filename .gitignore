@@ -1,0 +1,11 @@
+__pycache__/
+*.py[cod]
+*.sqlite3
+.pytest_cache/
+.coverage
+htmlcov/
+.venv/
+venv/
+.env
+db_data/
+results/benchmarks.json
