@@ -9,7 +9,7 @@ Redis is used to cache tenant lookups from the `X-Tenant-ID` request header.
 
 ## Start
 
-1. Copy or edit environment values in `.env`.
+1. Copy environment values in `.env.emample` to `.env`.
 2. Start everything:
 
 ```bash
