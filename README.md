@@ -16,7 +16,9 @@ Redis is used to cache tenant lookups from the `X-Tenant-ID` request header.
 docker-compose up --build
 ```
 
-The app runs at `http://localhost:8000`. PostgreSQL seeds `tenant_a` and `tenant_b` automatically from `seeds/initial_tenants.sql`; the same tenants are listed in `submission.json`.
+The app runs at `http://localhost:8000`. PostgreSQL is mapped to `localhost:5432` and Redis is mapped to `localhost:6379`. If any local port is busy, change `APP_PORT`, `POSTGRES_PORT`, or `REDIS_PORT` in `.env`.
+
+PostgreSQL seeds `tenant_a` and `tenant_b` automatically from `seeds/initial_tenants.sql`; the same tenants are listed in `submission.json`.
 
 ## API Checks
 
