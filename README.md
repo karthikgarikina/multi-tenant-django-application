@@ -92,6 +92,12 @@ Output is written to `results/benchmarks.json`:
 
 Use `.env` to change `BENCHMARK_TENANTS` and `BENCHMARK_PROJECTS_PER_TENANT`. The default is 10 tenants with 10,000 projects each.
 
+---
+# Video Demo
+
+https://youtu.be/ogKO7KFHdwU
+
+---
 ## Trade-Off Summary
 
 Row-level tenancy is simpler to operate and migrate, but every tenant-owned query must be scoped correctly. A composite index such as `(tenant_id, created_at)` is important for performance as the shared table grows.
